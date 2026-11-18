@@ -9,6 +9,9 @@ authors = [
 requires-python = ">=3.15"
 dependencies = []
 
+[tool.uv]
+required-version="==0.13.9"
+
 [project.scripts]
 ticket-tagger = "ticket_tagger:main"
 
